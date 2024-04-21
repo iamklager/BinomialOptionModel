@@ -1,0 +1,6 @@
+option <- BinomialOptionModel::Derivative_Security(4, 7, 4, (1/4), (1/2), 2, "European_call")
+option
+
+library(BinomialOptionModel)
+library(dplyr)
+BinomialOptionModel::PlotTree(option$derivative_prices)
