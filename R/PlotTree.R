@@ -11,6 +11,10 @@ PlotTree <- function(x) {
   # Graph object
   grph <- DiagrammeR::create_graph()
 
+  if(length(x) < 2){
+    return("Matrix must have more than one value")
+  }
+
   # Adding nodes
   for (i in 1:nrow(x)) {
     for (j in 1:(2^(i-1))) {
