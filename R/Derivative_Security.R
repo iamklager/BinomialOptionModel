@@ -1,14 +1,14 @@
 #' Derivative Security
 #'
 #' Description
-#' @param S Description of parameter S.
-#' @param K Description of parameter K.
-#' @param N Description of parameter N.
-#' @param r Description of parameter r.
-#' @param u Description of parameter u.
-#' @param d Description of parameter d.
-#' @param type Description of parameter type.
-#' @return What it returns.
+#' @param S Stock Price.
+#' @param K Strike Price.
+#' @param N Timepoint until the derivative price will be calculated.
+#' @param r Interest Rate of Bank account.
+#' @param u Up-Factor of stock price increase.
+#' @param d Down-Factor of stock price decline.
+#' @param type Type of Option, possible values = European_Call/European_Put, Asian_Call/Asian_Put, American_Call/American_Put.
+#' @return Returns a list with two matrixes, one for derivative prices and one for delta amounts.
 #' @examples
 #' Derivative_Security(S = 4, K = 4, N = 4, r = 0.25, d = 0.5, u = 2, type = "European_put")
 #' @export
