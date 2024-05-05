@@ -28,5 +28,5 @@ What it returns.
 Description
 }
 \examples{
-Derivative_Security(S, K, N, r, d, u, type);
+Derivative_Security(S = 4, K = 4, N = 4, r = 0.25, d = 0.5, u = 2, type = "European_put")
 }

@@ -10,7 +10,7 @@
 #' @param type Description of parameter type.
 #' @return What it returns.
 #' @examples
-#' Derivative_Security(S, K, N, r, d, u, type);
+#' Derivative_Security(S = 4, K = 4, N = 4, r = 0.25, d = 0.5, u = 2, type = "European_put")
 #' @export
 Derivative_Security <- function(S, K, N, r, d, u, type){
   stock_tree = stock_development(S, N, u, d)

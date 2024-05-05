@@ -7,7 +7,7 @@
 PlotTree(x)
 }
 \arguments{
-\item{x}{A matrix of option prices as returned by Derivative_Security.}
+\item{x}{A matrix of either option prices or deltas as returned by Derivative_Security().}
 }
 \value{
 Plots the option tree in the viewer plane..
@@ -16,5 +16,7 @@ Plots the option tree in the viewer plane..
 Description
 }
 \examples{
-PlotTree(Derivative_Security(S, K, N, r, d, u, type));
+option <- Derivative_Security(S = 4, K = 4, N = 4, r = 0.25, d = 0.5, u = 2, type = "European_put")
+PlotTree(option$derivative_prices)
+PlotTree(option$delta)
 }
