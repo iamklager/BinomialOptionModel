@@ -6,7 +6,7 @@ Author: Alexandra Bruckner, Gerhard Georg Klager and Sebastian Rorher
 Maintainer: Gerhard Georg Klager <gerhard.klager@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-Imports: 
+Depends: 
     DiagrammeR
 License: What license is it under?
 Encoding: UTF-8
