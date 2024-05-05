@@ -7,22 +7,22 @@
 Derivative_Security(S, K, N, r, d, u, type)
 }
 \arguments{
-\item{S}{Description of parameter S.}
+\item{S}{Stock Price.}
 
-\item{K}{Description of parameter K.}
+\item{K}{Strike Price.}
 
-\item{N}{Description of parameter N.}
+\item{N}{Timepoint until the derivative price will be calculated.}
 
-\item{r}{Description of parameter r.}
+\item{r}{Interest Rate of Bank account.}
 
-\item{d}{Description of parameter d.}
+\item{d}{Down-Factor of stock price decline.}
 
-\item{u}{Description of parameter u.}
+\item{u}{Up-Factor of stock price increase.}
 
-\item{type}{Description of parameter type.}
+\item{type}{Type of Option, possible values = European_Call/European_Put, Asian_Call/Asian_Put, American_Call/American_Put.}
 }
 \value{
-What it returns.
+Returns a list with two matrixes, one for derivative prices and one for delta amounts.
 }
 \description{
 Description
