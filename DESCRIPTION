@@ -2,7 +2,7 @@ Package: BinomialOptionModel
 Type: Package
 Title: Simulate binomial option models.
 Version: 0.1.0
-Author: Alexandra Bruckner, Gerhard Georg Klager and Sebastian Rorher
+Author: Alexandra Bruckner, Gerhard Georg Klager and Sebastian Rohrer
 Maintainer: Gerhard Georg Klager <gerhard.klager@gmail.com>
 Description: This package allows its users to simulate and plot the price developments of various binomial options.
 Depends: 
